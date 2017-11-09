@@ -1,4 +1,11 @@
+"""
+Random Maze Generator
+Creates X*Y grids consisting of walls (#) and floor tiles (.),
+forming a network of connected corridors.
+Warning: Sometimes, the algorithm will create enclosed spaces,
+but it is good enough to experiment with debugging techniques.
 
+"""
 import random
 
 XMAX, YMAX = 19, 16
